@@ -24,4 +24,10 @@ public class SolutionTest {
         Solution handle = new Solution();
         assertEquals(3, handle.lengthOfLongestSubstring(s));
     }
+    @Test
+    public void testCaseFour() {
+        String s = "aab";
+        Solution handle = new Solution();
+        assertEquals(2, handle.lengthOfLongestSubstring(s));
+    }
 }

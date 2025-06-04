@@ -25,6 +25,8 @@ public class Solution {
                 substring.remove(startCurr);
                 currentMax -= 1;
             }
+            substring.add(curr);
+            currentMax += 1;
         }
         return max;
     }
